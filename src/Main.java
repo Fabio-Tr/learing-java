@@ -1,10 +1,9 @@
-import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         System.out.print("sti gatti \n");
         System.out.println("sempre quelli");
-        System.out.println("ancora");
 
         int x;
         x = 10;
@@ -32,6 +31,16 @@ public class Main {
 
         // reference
         System.out.println(name.toUpperCase());
+
+
+        // user input
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Scrivi il tuo nome");
+        String yourname = scanner.nextLine();
+        System.out.println("Scrivi la tua età");
+        int age = scanner.nextInt();
+        scanner.nextLine(); //da mettere dopo int per andare a capo ed inserire eventualmente nuovi input
+        System.out.println("Il tuo nome è " + yourname + " ed hai " + age + " anni");
 
     }
 }
