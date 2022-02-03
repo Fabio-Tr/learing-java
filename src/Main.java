@@ -5,6 +5,7 @@ public class Main {
         System.out.print("sti gatti \n");
         System.out.println("sempre quelli");
 
+        //variabili
         int x;
         x = 10;
         int y = 40;
@@ -18,7 +19,7 @@ public class Main {
         System.out.println("La temperatura di " + name + " è " + temperature);
 
         /*
-        boolean true | false
+        boolean true || false
         byte    -128 : 127
         short   -32768 : 32767
         int     -2 miliardi : 2 miliardi            int x = 2_000_000_000;
